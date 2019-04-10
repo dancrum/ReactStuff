@@ -1,0 +1,46 @@
+.red {
+    color: red;
+  }
+  
+.bold {
+font-weight: bold;
+}
+
+.cockpit button {
+background: green;
+box-shadow: 0 4px 0 #006700;
+font: inherit;
+border: none;
+padding: 8px;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+outline: none;
+}
+
+.cockpit button:hover {
+background: rgb(16, 155, 16);
+box-shadow: 0 4px 0 #0a7e0a;
+}
+
+.cockpit button:active {
+background: rgb(16, 155, 16);
+box-shadow: inset 0 2px 2px #0a7e0a;
+margin-top: 4px;
+}
+
+.cockpit button.red {
+background: red;
+box-shadow: 0 4px 0 #a70303;
+}
+
+.cockpit button.red:hover {
+background: rgb(255, 69, 69);
+box-shadow: 0 4px 0 #be2727;
+}
+
+.cockpit button.red:active {
+background: rgb(255, 69, 69);
+box-shadow: inset 0 2px 2px #be2727;
+margin-top: 4px;
+}
