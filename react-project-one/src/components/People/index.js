@@ -1,19 +1,9 @@
 import React from 'react';
-import Person from './Person/Person.js'
+import Person from './Person/Person.js';
 
-class People extends React.Component {
 
-    shouldComponentUpdate(nextProps, nextState){
-        console.log('[People] shouldComponentUpdate');
-        return true;
-    }
-
-    componentDidUpdate(){
-        console.log('[People] componentDidUpdate');
-    }
-
+class People extends React.PureComponent {
     render() {
-        console.log('[People] Rendering...');
         return this.props.persons.map((person, index) => {
             return <Person 
             key={person.id} 
